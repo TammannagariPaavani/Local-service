@@ -1,31 +1,29 @@
-Overview
+SERVEASE is a responsive web-based Service Provider Management System developed using PHP, MySQL, HTML, CSS, and JavaScript. The main goal of this project is to make it easy for users to find service providers, book appointments, and manage their bookings through a simple and user-friendly interface.
 
-This is a responsive Service Provider Website developed to help users explore services, contact service providers, and manage service-related information through a modern web interface.
-
-The website is designed with a clean UI and user-friendly navigation to provide a smooth experience on desktop and mobile devices.
+The system also includes separate dashboards for Service Providers and Administrators to manage services, appointments, users, and other activities efficiently.
 
 Features
-User Features
-User Registration and Login
-Service Search
-Book Appointment
+User
+User Registration & Login
+Search Available Services
+Book Appointments
+View My Bookings
 Manage Profile
-Forgot Password System
-Contact and Inquiry System
-My Bookings Section
-Service Provider Features
+Forgot Password
+Contact & Inquiry Form
+Service Provider
 Provider Dashboard
-Add Services
-Edit Services
+Add New Services
+Edit Existing Services
 Manage Appointments
-Admin Features
-Admin Login Panel
+Admin
+Secure Admin Login
 Manage Users
-Manage Providers
-Approve or Reject Requests
+Manage Service Providers
+Approve or Reject Provider Requests
+Manage Services
 Payment Management
-Service Management
-Admin Messages Dashboard
+View Contact Messages
 Technologies Used
 Frontend
 HTML5
@@ -33,12 +31,12 @@ CSS3
 JavaScript
 Backend
 PHP
-Server
-XAMPP
 Database
 MySQL
-Tools Used
-VS Code
+Server
+XAMPP
+Tools
+Visual Studio Code
 phpMyAdmin
 Project Structure
 SERVEASE/
@@ -61,16 +59,8 @@ SERVEASE/
 │   └── users.php
 │
 ├── backend/
-│
 ├── css/
-│   ├── index.css
-│   ├── login.css
-│   └── services.css
-│
 ├── image/
-│   ├── painter.jpg
-│   └── tutor.jpg
-│
 ├── about.php
 ├── add-service.php
 ├── book-appointment.php
@@ -91,43 +81,43 @@ SERVEASE/
 ├── serch.php
 ├── services.php
 └── README.md
-
-
-
-
-
-Step 1: Clone the Repository
+Installation
+1. Clone the Repository
 git clone <repository-link>
+2. Open the Project
+cd SERVEASE
+3. Start XAMPP
+Open the XAMPP Control Panel.
+Start Apache and MySQL.
+4. Move the Project
 
-Step 2: Open Project Folder
-cd project-folder
+Copy the project folder to:
 
-Step 3: Start XAMPP
-Open XAMPP Control Panel
-Start Apache and MySQL
+C:\xampp\htdocs\SERVEASE
+5. Import the Database
+Open phpMyAdmin.
+Create a new database (for example, servease).
+Import the provided SQL file into the database.
+6. Run the Project
 
-Step 4: Move Project Folder
-Move the SERVEASE folder into:
-htdocs/
-Example:
-C:/xampp/htdocs/SERVEASE
+Open your browser and visit:
 
-Step 5: Import Database
-Open phpMyAdmin
-Create a new database
-Import the SQL file into the database
+http://localhost/SERVEASE/
+Future Improvements
 
-Step 6: Run the Project
+Some features that can be added in future versions include:
 
-Open browser and run:localhost/sevease/....
-
-
+Online Payment Gateway
+Email Notifications
+Service Ratings & Reviews
+Real-Time Chat Support
+OTP Verification
+Responsive Admin Dashboard
+Advanced Search & Filters
 Author
 
-Developed by: Tammannagari Paavani
-
-
+Tammannagari Paavani
 
 License
 
-This project is created for educational and learning purposes.
+This project was developed for educational purposes to practice full-stack web development using PHP and MySQL
